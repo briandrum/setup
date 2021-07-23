@@ -1,0 +1,106 @@
+NSGlobalDomain:
+  # Permanently show the menu bar
+  _HIHideMenuBar: false
+
+com.apple.dock:
+  # Don’t animate opening applications from the Dock
+  launchanim: false
+
+  # Automatically hide and show the Dock
+  autohide: true
+
+  # Make Dock icons of hidden applications translucent
+  showhidden: true
+
+  # No bouncing icons
+  no-bouncing: true
+
+  # Don't show recently used applications in the Dock
+  show-recents: false
+
+com.apple.iCal:
+  # Week starts on Monday
+  "first day of week": 1
+
+com.apple.terminal:
+  "Default Window Settings": "Brian"
+  "Startup Window Settings": "Brian"
+
+com.barebones.BBEdit:
+  # Appearance
+  ApplicationAppearanceMode: 0
+  UseSystemAppearanceWhenInDarkMode: false
+  SelectedColorSchemeName: "BBEdit Light"
+  SelectedColorSchemeNameDarkMode: "BBEdit Dark"
+
+  NavbarShowTextOptions: true
+  NavbarShowDocumentNavigation: false
+  NavbarShowMarkerMenu: false
+  NavbarShowCounterpartButton: false
+  NavbarShowIncludedFilesMenu: false
+  NavbarShowDocumentIcon: true
+  NavbarShowFunctionMenu: true
+  # Function menu: Sort items by name?
+
+  EditingWindowShowLineNumbers: true
+  EditingWindowShowGutter: true
+  EditingWindowShowTabStops: true
+  EditingWindowShowPageGuide: true
+  EditingWindowPageGuideWidth: 80
+  # Guide contrast?
+
+  TextStatusBarShowCursorPosition: true
+  TextStatusBarShowLanguageMenu: true
+  TextStatusBarShowTextEncodingMenu: true
+  TextStatusBarShowLineBreakMenu: true
+  # Lock state?
+  # Save date?
+  TextStatusBarShowDocumentStatistics: true
+  # Instance of selected text?
+  # Text magnification?
+
+  # Application
+  # Completion
+  # Editing
+
+  # Editor Defaults
+  EditorSoftWrap: 0
+  EditorAutoExpandTabs: 1
+  EditorShowInvisibleCharacters: 1
+  # …
+  EditorDefaultTabWidth: 2
+
+  # Keyboard
+  # Languages
+  # Menus & Shortcuts
+  # Preview Helpers
+  # Printing
+  # Sidebar
+  # Text Colors
+  # Text Encodings
+
+  # Text Files
+  StripTrailingWhitespace: true
+
+  # Expert (http://www.barebones.com/support/bbedit/ExpertPreferences.html)
+  FindDialog_UsesFindScrap: false
+
+com.google.Chrome:
+  # Disable swipe navigation
+  AppleEnableSwipeNavigateWithScrolls: false
+
+  # Use the system-native print preview dialog
+  DisablePrintPreview: true
+
+  # Expand the print dialog by default
+  PMPrintingExpandedStateForPrint2: true
+
+defaults write com.google.Chrome.canary:
+  # Disable swipe navigation
+  AppleEnableSwipeNavigateWithScrolls: false
+
+  # Use the system-native print preview dialog
+  DisablePrintPreview: true
+
+  # Expand the print dialog by default
+  PMPrintingExpandedStateForPrint2: true

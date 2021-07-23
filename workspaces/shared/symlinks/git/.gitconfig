@@ -1,0 +1,51 @@
+[user]
+  name = Brian Drum
+  useConfigOnly = true
+#   Uncomment to set email globally
+#   email = brian@briandrum.net
+[core]
+  excludesfile = ~/.gitignore
+  editor = bbedit -w
+[credential]
+  helper = osxkeychain
+[diff]
+  tool = "bbdiff"
+[difftool "bbdiff"]
+  cmd = bbdiff --wait --resume \"$LOCAL\" \"$REMOTE\"
+  prompt = false
+[fetch]
+  prune = true
+[github]
+  user = briandrum
+[merge]
+  tool = bbdiff
+[mergetool]
+  keepBackup = false
+  prompt = false
+[pull]
+  rebase = true
+[alias]
+#   amend = commit --amend --reuse-message=HEAD
+  br = branch
+  ci = commit
+  co = checkout
+#   contrib = shortlog --summary --numbered
+#   cr = clone --recursive
+#   df = diff --word-diff
+  dt = difftool
+#   g = grep --break --heading --line-number
+#   l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+#   ld = "!sh -c \"git log --since '${1:-1} days ago' --oneline --author $(git config user.email)\" -"
+#   lg = log -p
+#   ll = log --pretty=oneline --graph --abbrev-commit
+#   lm = log --pretty=format:'* %s (%h)'
+#   patch = !git --no-pager diff --no-color
+  p = push
+#   pf = push --force
+#   pr = "!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
+#   show-ignored = "! git clean -ndX | perl -pe 's/Would remove/Ignored:/'"
+  st = status
+#   stl = ls-files -m -o --exclude-standard
+#   sts = status -sb
+#   unstage = reset --hard HEAD
+  up = !git pull --autostash

@@ -1,0 +1,32 @@
+#
+tap "borkdude/brew"
+tap "clojure-lsp/brew"
+tap "heroku/brew"
+
+#
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
+cask "ngrok"
+cask "vagrant-manager"
+cask "vagrant"
+cask "virtualbox"
+
+#
+brew "awscli"
+brew "borkdude/brew/babashka"
+brew "clojure-lsp-native"
+brew "coreutils"
+brew "docker-compose"
+brew "docker"
+brew "gnu-sed"
+brew "gpg"
+brew "grep"
+brew "heroku"
+brew "hub"
+brew "jq"
+brew "leiningen"
+brew "npm"
+brew "postgresql"
+brew "readline"
+brew "rlwrap"
+brew "sassc"
+brew "tmux"

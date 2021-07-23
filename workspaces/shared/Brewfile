@@ -1,0 +1,64 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "zero-sh/tap"
+
+# Tool for managing dock items
+brew "dockutil"
+
+# Select default apps for documents and URL schemes on macOS
+brew "duti"
+
+# Maintain consistent coding style between multiple editors
+brew "editorconfig"
+
+# Take GitHub to the command line
+brew "gh"
+
+# Distributed revision control system
+brew "git"
+
+# Mac App Store command-line interface
+brew "mas"
+
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+
+# Small tool to set macOS user defaults from a YAML file
+brew "zero-sh/tap/apply-user-defaults"
+
+# Radically simple personal bootstrapping tool for macOS
+brew "zero-sh/tap/zero"
+
+cask "bbedit"
+cask "fliqlo"
+cask "github"
+cask "google-chrome"
+cask "hazel"
+cask "keepingyouawake"
+cask "mailtrackerblocker"
+cask "muzzle"
+cask "notion"
+cask "rectangle"
+cask "thingsmacsandboxhelper"
+cask "zoom"
+
+# Cask Fonts (https://github.com/Homebrew/homebrew-cask-fonts)
+
+# cask font-anonymous-pro
+# cask font-balsamiq-sans
+
+# Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
+
+cask "sbarex-qlmarkdown"
+
+mas "1Password", id: 1333542190
+mas "Affinity Designer", id: 824171161
+mas "Affinity Photo", id: 824183456
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pixelmator", id: 407963104
+mas "Slack", id: 803453959
+mas "Things 3", id: 904280696
+mas "Pins for Pinboard", id: 1547106997
