@@ -5,9 +5,9 @@ tap "heroku/brew"
 
 #
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
+cask "docker"
+cask "droplr"
 cask "ngrok"
-cask "vagrant-manager"
-cask "vagrant"
 cask "virtualbox"
 
 #
@@ -15,8 +15,6 @@ brew "awscli"
 brew "borkdude/brew/babashka"
 brew "clojure-lsp-native"
 brew "coreutils"
-brew "docker-compose"
-brew "docker"
 brew "gnu-sed"
 brew "gpg"
 brew "grep"

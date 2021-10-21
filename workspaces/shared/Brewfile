@@ -31,6 +31,7 @@ brew "zero-sh/tap/apply-user-defaults"
 brew "zero-sh/tap/zero"
 
 cask "bbedit"
+cask "firefox"
 cask "fliqlo"
 cask "github"
 cask "google-chrome"
@@ -50,15 +51,16 @@ cask "zoom"
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 
-cask "sbarex-qlmarkdown"
+cask "qlmarkdown"
 
 mas "1Password", id: 1333542190
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
 mas "Keynote", id: 409183694
+mas "NextDNS", id: 1464122853
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Pins for Pinboard", id: 1547106997
 mas "Pixelmator", id: 407963104
 mas "Slack", id: 803453959
 mas "Things 3", id: 904280696
-mas "Pins for Pinboard", id: 1547106997
