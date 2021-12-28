@@ -62,6 +62,7 @@ com.barebones.BBEdit:
   # Application
   # Completion
   # Editing
+  ExtraSpaceInTextViews: 2
 
   # Editor Defaults
   EditorSoftWrap: 0
