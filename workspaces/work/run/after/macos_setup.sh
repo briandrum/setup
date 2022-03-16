@@ -7,6 +7,7 @@ dockutil --no-restart --remove all
 dockutil --no-restart --add "/Applications/Things3.app"
 dockutil --no-restart --add "/Applications/Notion.app"
 dockutil --no-restart --add "/Applications/Slack.app"
+dockutil --no-restart --add "/Applications/ClickUp.app"
 dockutil --no-restart --add "/Applications/Zoom.us.app"
 dockutil --no-restart --add "/Applications/Google Chrome.app"
 dockutil --no-restart --add "/Applications/BBEdit.app"

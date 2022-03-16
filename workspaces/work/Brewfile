@@ -5,6 +5,7 @@ tap "heroku/brew"
 
 #
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
+cask "clickup"
 cask "docker"
 cask "droplr"
 cask "ngrok"
