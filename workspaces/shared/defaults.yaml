@@ -1,4 +1,8 @@
 NSGlobalDomain:
+  # Adjust toolbar title rollover delay
+  # https://macos-defaults.com/finder/nstoolbartitleviewrolloverdelay.html
+  NSToolbarTitleViewRolloverDelay: 0
+
   # Permanently show the menu bar
   _HIHideMenuBar: false
 
@@ -17,6 +21,17 @@ com.apple.dock:
 
   # Don't show recently used applications in the Dock
   show-recents: false
+
+# Menu Bar Clock
+# https://macos-defaults.com/menubar/
+com.apple.menuextra.clock:
+  # Flash clock time separators
+  # https://macos-defaults.com/menubar/FlashDateSeparators.html
+  FlashDateSeparators: true
+
+  # Set menubar digital clock format
+  # https://macos-defaults.com/menubar/dateformat.html
+  DateFormat: "EEE d MMM h:mm"
 
 com.apple.iCal:
   # Week starts on Monday
