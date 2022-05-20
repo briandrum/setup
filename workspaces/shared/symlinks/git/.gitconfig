@@ -17,8 +17,11 @@
   prune = true
 [github]
   user = briandrum
+[init]
+	defaultBranch = main
 [merge]
   tool = bbdiff
+  conflictstyle = diff3
 [mergetool]
   keepBackup = false
   prompt = false
