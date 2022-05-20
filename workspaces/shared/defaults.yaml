@@ -25,13 +25,18 @@ com.apple.dock:
 # Menu Bar Clock
 # https://macos-defaults.com/menubar/
 com.apple.menuextra.clock:
-  # Flash clock time separators
-  # https://macos-defaults.com/menubar/FlashDateSeparators.html
-  FlashDateSeparators: true
+
+  # Set menubar digital clock
+  IsAnalog: 0
 
   # Set menubar digital clock format
   # https://macos-defaults.com/menubar/dateformat.html
-  DateFormat: "EEE d MMM h:mm"
+  # https://www.tech-otaku.com/mac/setting-the-date-and-time-format-for-the-macos-menu-bar-clock-using-terminal/
+  DateFormat: "EEE MMM d h:mm a"
+
+  # Flash clock time separators
+  # https://macos-defaults.com/menubar/FlashDateSeparators.html
+  FlashDateSeparators: true
 
 com.apple.iCal:
   # Week starts on Monday
