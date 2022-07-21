@@ -29,6 +29,9 @@ trap 'rm -rf "$REPOS_DIR"' EXIT
     if ! defaults read com.apple.Terminal "Window Settings" | grep -Fw Brian >/dev/null; then
         open -a Terminal assets/Brian.terminal
     fi
+
+    echo "Applying icons..."
+    ./set-icon assets/BBEdit-BigSur\ 2.icns /Applications/BBEdit.app
 )
 
 echo "Resetting QuickLook."
