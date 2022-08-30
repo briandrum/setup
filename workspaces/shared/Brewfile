@@ -24,6 +24,9 @@ brew "mas"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 
+# Version control system designed to be a better CVS
+brew "svn"
+
 # Small tool to set macOS user defaults from a YAML file
 brew "zero-sh/tap/apply-user-defaults"
 
@@ -46,8 +49,68 @@ cask "zoom"
 
 # Cask Fonts (https://github.com/Homebrew/homebrew-cask-fonts)
 
-# cask font-anonymous-pro
-# cask font-balsamiq-sans
+cask "font-anonymous-pro"          # Mark Simonson
+cask "font-atkinson-hyperlegible"  # Braille Institute
+cask "font-autour-one"             # Sorkin Type
+cask "font-balsamiq-sans"          # Balsamiq
+cask "font-besley"                 # indestructible type*
+cask "font-bodoni-moda"            # indestructible type*
+cask "font-cabin-condensed"        # Impallari Type
+cask "font-cabin"                  # Impallari Type
+cask "font-caveat-brush"           # Impallari Type
+cask "font-caveat"                 # Impallari Type
+cask "font-contrail-one"           # Riccardo De Franceschi
+cask "font-corinthia"              # Robert Leuschke
+cask "font-crimson-pro"            # Jacques Le Bailly
+cask "font-david-libre"            # Monotype Imaging Inc.
+cask "font-domine"                 # Impallari Type
+cask "font-et-book"                # Edward Tufte
+cask "font-fjalla-one"             # Sorkin Type
+cask "font-foundry-sterling"       # The Foundry Types
+cask "font-goblin-one"             # Sorkin Type
+cask "font-goudy-bookletter-1911"  # The League of Moveable Type / Barry Schwartz
+cask "font-gravitas-one"           # Sorkin Type
+cask "font-inconsolata"            # Raph Levien
+cask "font-inter"                  # Rasmus Andersson
+cask "font-jost"                   # indestructible type*
+cask "font-knewave"                # The League of Moveable Type / Tyler Finck
+cask "font-league-gothic"          # The League of Moveable Type / Caroline Hadilaksono / Micah Rich / Tyler Finck
+cask "font-league-mono"            # The League of Moveable Type / Tyler Finck
+cask "font-league-script"          # The League of Moveable Type / Haley Fiege
+cask "font-league-spartan"         # The League of Moveable Type / Caroline Hadilaksono / Micah Rich / Tyler Finck
+cask "font-lemonada"               # Mohamed Gaber, Eduardo Tunni
+cask "font-libre-baskerville"      # Impallari Type
+cask "font-libre-caslon-display"   # Impallari Type
+cask "font-libre-caslon-text"      # Impallari Type
+cask "font-libre-franklin"         # Impallari Type
+cask "font-life-savers"            # Impallari Type
+cask "font-limelight"              # Sorkin Type
+cask "font-luckiest-guy"           # Astigmatic
+cask "font-luxurious-roman"        # Robert Leuschke
+cask "font-luxurious-script"       # Robert Leuschke
+cask "font-merriweather"           # Sorkin Type
+cask "font-ms-madi"                # Robert Leuschke
+cask "font-mulish"                 # Vernon Adams,
+cask "font-oldenburg"              # Nicole Fally
+cask "font-oswald"                 # Vernon Adams
+cask "font-ovo"                    # Nicole Fally
+cask "font-plaster"                # Sorkin Type
+cask "font-poller-one"             # Yvonne Schüttler
+cask "font-poppins-latin"          # Jonny Pinhorn
+cask "font-public-sans"            # USWDS
+cask "font-quattrocento"           # Impallari Type
+cask "font-qwitcher-grypen"        # Robert Leuschke
+cask "font-redacted-script"        # Christian Naths
+cask "font-redacted"               # Christian Naths
+cask "font-rye"                    # Nicole Fally
+cask "font-sancreek"               # Vernon Adams
+cask "font-short-stack"            # James Grieshaber
+cask "font-shrikhand"              # Jonny Pinhorn
+cask "font-sorts-mill-goudy"       # The League of Moveable Type / Barry Schwartz
+cask "font-square-peg"             # Robert Leuschke
+cask "font-style-script"           # Robert Leuschke
+cask "font-trocchi"                # Vernon Adams
+cask "font-vidaloka"               # Cyreal
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 
