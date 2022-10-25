@@ -91,6 +91,7 @@ cask "font-luxurious-script"       # Robert Leuschke
 cask "font-merriweather"           # Sorkin Type
 cask "font-ms-madi"                # Robert Leuschke
 cask "font-mulish"                 # Vernon Adams,
+cask "font-new-york"               # Apple
 cask "font-oldenburg"              # Nicole Fally
 cask "font-oswald"                 # Vernon Adams
 cask "font-ovo"                    # Nicole Fally
@@ -104,9 +105,15 @@ cask "font-redacted-script"        # Christian Naths
 cask "font-redacted"               # Christian Naths
 cask "font-rye"                    # Nicole Fally
 cask "font-sancreek"               # Vernon Adams
+cask "font-sf-compact"             # Apple
+cask "font-sf-mono"                # Apple
+cask "font-sf-pro"                 # Apple
 cask "font-short-stack"            # James Grieshaber
 cask "font-shrikhand"              # Jonny Pinhorn
 cask "font-sorts-mill-goudy"       # The League of Moveable Type / Barry Schwartz
+cask "font-source-code-pro"        # Paul D. Hunt
+cask "font-source-sans-3"          # Paul D. Hunt
+cask "font-source-serif-4"         # Paul D. Hunt
 cask "font-square-peg"             # Robert Leuschke
 cask "font-style-script"           # Robert Leuschke
 cask "font-trocchi"                # Vernon Adams
