@@ -35,12 +35,11 @@ brew "zero-sh/tap/zero"
 
 cask "bbedit"
 cask "firefox"
-cask "fliqlo"
+# cask "fliqlo"
 cask "github"
 cask "google-chrome"
 cask "hazel"
 cask "keepingyouawake"
-cask "mailtrackerblocker"
 cask "muzzle"
 cask "notion"
 cask "rectangle"
@@ -123,15 +122,18 @@ cask "font-vidaloka"               # Cyreal
 
 cask "qlmarkdown"
 
-mas "1Password", id: 1333542190
-mas "Affinity Designer", id: 824171161
-mas "Affinity Photo", id: 824183456
+# mas "Affinity Designer", id: 824171161
+mas "Affinity Designer 2", id: 1616831348
+# mas "Affinity Photo", id: 824183456
+mas "Affinity Photo 2", id: 1616822987
+mas "Affinity Publisher 2", id: 1606941598
 mas "Keynote", id: 409183694
 mas "NextDNS", id: 1464122853
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pins for Pinboard", id: 1547106997
-mas "Pixelmator", id: 407963104
+# mas "Pixelmator", id: 407963104
+mas "Pixelmator Pro", id: 1289583905
 mas "Shareful", id: 1522267256
 mas "Slack", id: 803453959
 mas "System Color Picker", id: 1545870783

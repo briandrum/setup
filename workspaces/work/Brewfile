@@ -27,3 +27,5 @@ brew "readline"
 brew "rlwrap"
 brew "sassc"
 brew "tmux"
+
+mas "1Password", id: 1333542190
