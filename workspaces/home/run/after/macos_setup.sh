@@ -16,6 +16,6 @@ dockutil --no-restart --add "/System/Applications/Reminders.app"
 dockutil --no-restart --add "/System/Applications/Notes.app"
 dockutil --no-restart --add "/System/Applications/Music.app"
 dockutil --no-restart --add "/Applications/Things3.app"
-dockutil --no-restart --add "/System/Applications/System Preferences.app"
+dockutil --no-restart --add "/System/Applications/System Settings.app"
 dockutil --add ~/Downloads --display stack # Implicitly restarts the Dock.
 set +x
