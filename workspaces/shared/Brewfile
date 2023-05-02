@@ -14,7 +14,7 @@ brew "duti"
 brew "editorconfig"
 
 # Convert and stream audio and video
-brew ffmpeg
+brew "ffmpeg"
 
 # Take GitHub to the command line
 brew "gh"
@@ -47,6 +47,8 @@ cask "keepingyouawake"
 cask "muzzle"
 cask "notion"
 cask "rectangle"
+cask "reflect"
+cask "the-unarchiver"
 cask "thingsmacsandboxhelper"
 cask "zoom"
 
@@ -105,7 +107,6 @@ cask "font-public-sans"            # USWDS
 cask "font-quattrocento"           # Impallari Type
 cask "font-qwitcher-grypen"        # Robert Leuschke
 cask "font-redacted-script"        # Christian Naths
-cask "font-redacted"               # Christian Naths
 cask "font-rye"                    # Nicole Fally
 cask "font-sancreek"               # Vernon Adams
 cask "font-sf-compact"             # Apple
