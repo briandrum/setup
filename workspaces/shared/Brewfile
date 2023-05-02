@@ -4,7 +4,8 @@ tap "homebrew/cask-fonts"
 tap "zero-sh/tap"
 
 # Tool for managing dock items
-brew "dockutil"
+# brew "dockutil"
+# https://github.com/kcrawford/dockutil/issues/146
 
 # Select default apps for documents and URL schemes on macOS
 brew "duti"
