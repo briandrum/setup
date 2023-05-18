@@ -4,10 +4,10 @@ tap "clojure-lsp/brew"
 tap "heroku/brew"
 
 #
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
 cask "docker"
 cask "droplr"
 cask "ngrok"
+cask "temurin17"
 
 #
 brew "awscli"
