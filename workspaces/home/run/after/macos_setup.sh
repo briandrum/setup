@@ -4,7 +4,7 @@ echo "Updating Dock..."
 
 set -x
 dockutil --no-restart --remove all
-dockutil --no-restart --add "/Applications/Safari.app"
+dockutil --no-restart --add "/System/Cryptexes/App/System/Applications/Safari.app"
 dockutil --no-restart --add "/System/Applications/Messages.app"
 dockutil --no-restart --add "/System/Applications/Mail.app"
 dockutil --no-restart --add "/System/Applications/Maps.app"

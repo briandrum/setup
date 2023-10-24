@@ -1,3 +1,6 @@
-#
-mas "Banktivity", id: 1480779512
+# Adds an OCR text layer to scanned PDF files
+brew "ocrmypdf"
+
 mas "1Blocker - Ad Blocker", id: 1365531024
+mas "Banktivity", id: 1480779512
+mas "Paprika Recipe Manager 3", id: 1303222628
