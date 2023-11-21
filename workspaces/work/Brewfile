@@ -12,6 +12,7 @@ cask "temurin17"
 #
 brew "awscli"
 brew "borkdude/brew/babashka"
+brew "clojure"
 brew "clojure-lsp-native"
 brew "coreutils"
 brew "gnu-sed"
