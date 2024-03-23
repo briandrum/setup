@@ -45,6 +45,7 @@ cask "google-chrome"
 cask "hazel"
 cask "keepingyouawake"
 cask "muzzle"
+cask "netnewswire"
 cask "notion"
 cask "rectangle"
 cask "reflect"
@@ -60,6 +61,7 @@ cask "font-autour-one"             # Sorkin Type
 cask "font-balsamiq-sans"          # Balsamiq
 cask "font-besley"                 # indestructible type*
 cask "font-bodoni-moda"            # indestructible type*
+cask "font-bricolage-grotesque"    # Mathieu Triay
 cask "font-cabin-condensed"        # Impallari Type
 cask "font-cabin"                  # Impallari Type
 cask "font-caveat-brush"           # Impallari Type
@@ -72,6 +74,7 @@ cask "font-domine"                 # Impallari Type
 cask "font-et-book"                # Edward Tufte
 cask "font-fjalla-one"             # Sorkin Type
 cask "font-foundry-sterling"       # The Foundry Types
+cask "font-fraunces"               # Undercase Type
 cask "font-goblin-one"             # Sorkin Type
 cask "font-goudy-bookletter-1911"  # The League of Moveable Type / Barry Schwartz
 cask "font-gravitas-one"           # Sorkin Type
