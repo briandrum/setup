@@ -31,6 +31,9 @@ brew "stow"
 # Version control system designed to be a better CVS
 brew "svn"
 
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+
 # Small tool to set macOS user defaults from a YAML file
 brew "zero-sh/tap/apply-user-defaults"
 
