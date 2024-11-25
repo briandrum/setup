@@ -18,7 +18,7 @@
 [github]
   user = briandrum
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [merge]
   tool = bbdiff
   conflictstyle = diff3
@@ -27,6 +27,8 @@
   prompt = false
 [pull]
   rebase = true
+[push]
+  autoSetupRemote = true
 [alias]
 #   amend = commit --amend --reuse-message=HEAD
   br = branch

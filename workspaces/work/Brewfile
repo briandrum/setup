@@ -1,32 +1,43 @@
-#
+# aclaimant/Brewfile
 tap "borkdude/brew"
-tap "clojure-lsp/brew"
 tap "heroku/brew"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
 
 #
-cask "docker"
 cask "droplr"
+
+# aclaimant/Brewfile
 cask "ngrok"
+cask "docker"
 cask "temurin17"
+cask "1password/tap/1password-cli"
 
 #
+brew "clojure"
+brew "clojure-lsp"
+brew "npm"
+
+# aclaimant/Brewfile
 brew "awscli"
 brew "borkdude/brew/babashka"
-brew "clojure"
-brew "clojure-lsp-native"
 brew "coreutils"
+brew "docker-compose"
+brew "git"
 brew "gnu-sed"
 brew "gpg"
 brew "grep"
-brew "heroku"
+brew "heroku/brew/heroku"
 brew "hub"
 brew "jq"
 brew "leiningen"
-brew "npm"
-brew "postgresql"
+brew "node"
+brew "postgresql@16"
 brew "readline"
+brew "ripgrep"
 brew "rlwrap"
 brew "sassc"
-brew "tmux"
+brew "gh"
 
 mas "1Password", id: 1333542190
