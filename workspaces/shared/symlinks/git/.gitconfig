@@ -1,8 +1,7 @@
-[user]
-  name = Brian Drum
-  useConfigOnly = true
-#   Uncomment to set email globally
-#   email = brian@briandrum.net
+[includeIf "hasconfig:remote.*.url:git@github.com:aclaimant/**"]
+  path = ~/.dotfiles/workspaces/work/symlinks/git/.gitconfig
+[includeIf "hasconfig:remote.*.url:git@github.com:*/**"]
+  path = ~/.dotfiles/workspaces/home/symlinks/git/.gitconfig
 [core]
   excludesfile = ~/.gitignore
   editor = bbedit -w
