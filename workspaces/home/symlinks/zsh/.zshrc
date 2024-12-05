@@ -21,3 +21,12 @@ prompt='%2/ $(git_branch_name) 🍔 '
 
 # Add sbin to $PATH for Homebrew
 export PATH="/usr/local/sbin:$PATH"
+
+# Add the following to the ~/.bash_profile or ~/.zshrc file:
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+#   source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
+
+# To enable auto-switching of Rubies specified by .ruby-version files,
+# add the following to ~/.bash_profile or ~/.zshrc:
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+#   source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
