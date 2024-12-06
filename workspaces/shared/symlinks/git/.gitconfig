@@ -1,7 +1,7 @@
 [includeIf "hasconfig:remote.*.url:git@github.com:aclaimant/**"]
-  path = ~/.dotfiles/workspaces/work/symlinks/git/.gitconfig
+  path = ~/.dotfiles/workspaces/work/symlinks/git/.gitconfig-work
 [includeIf "hasconfig:remote.*.url:git@github.com:*/**"]
-  path = ~/.dotfiles/workspaces/home/symlinks/git/.gitconfig
+  path = ~/.dotfiles/workspaces/home/symlinks/git/.gitconfig-home
 [core]
   excludesfile = ~/.gitignore
   editor = bbedit -w
