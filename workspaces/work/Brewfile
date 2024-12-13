@@ -1,25 +1,23 @@
-# aclaimant/Brewfile
+# https://github.com/aclaimant/aclaimant/blob/main/Brewfile
 tap "borkdude/brew"
 tap "heroku/brew"
-tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 
 #
 cask "droplr"
 
-# aclaimant/Brewfile
+# https://github.com/aclaimant/aclaimant/blob/main/Brewfile
 cask "ngrok"
-cask "docker"
+cask "docker" # Docker Desktop
 cask "temurin17"
 cask "1password/tap/1password-cli"
 
 #
-brew "clojure"
-brew "clojure-lsp"
-brew "npm"
+# brew "clojure"
+# brew "clojure-lsp"
+# brew "npm"
 
-# aclaimant/Brewfile
+# https://github.com/aclaimant/aclaimant/blob/main/Brewfile
 brew "awscli"
 brew "borkdude/brew/babashka"
 brew "coreutils"
@@ -40,4 +38,5 @@ brew "rlwrap"
 brew "sassc"
 brew "gh"
 
+#
 mas "1Password", id: 1333542190

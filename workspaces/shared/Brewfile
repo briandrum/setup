@@ -1,5 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "zero-sh/tap"
 
@@ -51,7 +50,6 @@ cask "google-chrome"
 cask "hazel"
 cask "keepingyouawake"
 cask "muzzle"
-cask "netnewswire"
 cask "notion"
 cask "rectangle"
 cask "reflect"
