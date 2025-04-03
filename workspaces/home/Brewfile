@@ -1,7 +1,17 @@
+# Open-source video transcoder available for Linux, Mac, and Windows
+brew "handbrake"
+
+# Access DVDs as block devices without the decryption
+brew "libdvdcss"
+
 # Adds an OCR text layer to scanned PDF files
 brew "ocrmypdf"
 
+# Free and open-source RSS reader
 cask "netnewswire"
+
+# Multimedia player
+cask "vlc"
 
 mas "1Blocker - Ad Blocker", id: 1365531024
 mas "Banktivity", id: 1480779512
