@@ -1,5 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "zero-sh/tap"
 
 # Tool for managing dock items
@@ -56,8 +55,6 @@ cask "reflect"
 cask "the-unarchiver"
 cask "thingsmacsandboxhelper"
 cask "zoom"
-
-# Cask Fonts (https://github.com/Homebrew/homebrew-cask-fonts)
 
 cask "font-anonymous-pro"          # Mark Simonson
 cask "font-atkinson-hyperlegible"  # Braille Institute
